@@ -24,7 +24,7 @@ function onSubmitForm() {
 
   // 新しいタスクを生成
   const newItem = {
-    id: items.length + 1, // id
+    id: items.length, // id
     content: input.value, // タスクの内容
     limit: inputDate.value, // 期限
     state: statuses.NOT_START, // 状態（未着手など）
